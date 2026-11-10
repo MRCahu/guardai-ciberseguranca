@@ -1,0 +1,3 @@
+válido: vulnerável=True; parametrizado=True
+senha incorreta: vulnerável=False; parametrizado=False
+bypass sintético: vulnerável=True; parametrizado=False

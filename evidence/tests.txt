@@ -1,0 +1,13 @@
+test_comment_bypass_reproduced_and_blocked (test_sql_injection.AuthenticationTests.test_comment_bypass_reproduced_and_blocked) ... ok
+test_destructive_text_is_only_data (test_sql_injection.AuthenticationTests.test_destructive_text_is_only_data) ... ok
+test_empty_fields_blocked (test_sql_injection.AuthenticationTests.test_empty_fields_blocked) ... ok
+test_invalid_password_both_versions (test_sql_injection.AuthenticationTests.test_invalid_password_both_versions) ... ok
+test_quote_in_legitimate_username (test_sql_injection.AuthenticationTests.test_quote_in_legitimate_username) ... ok
+test_tautology_blocked (test_sql_injection.AuthenticationTests.test_tautology_blocked) ... ok
+test_unknown_user_blocked (test_sql_injection.AuthenticationTests.test_unknown_user_blocked) ... ok
+test_valid_login_both_versions (test_sql_injection.AuthenticationTests.test_valid_login_both_versions) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

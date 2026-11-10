@@ -42,7 +42,7 @@ O bypass sintético retorna `True` na versão vulnerável e `False` na parametri
 Siga o [runbook](docs/runbook.md). Instale/configure o Hermes pela documentação oficial, execute `hermes` na raiz e peça a leitura dos arquivos da especialização. O prompt completo e os cenários estão documentados. Outros harnesses compatíveis também podem carregar os arquivos.
 
 ## Evidências e honestidade
-Os logs Python são execuções reais; a análise documenta a revisão feita nesta sessão pelo assistente. Não há alegação de execução no Hermes, indisponível neste ambiente. Dois cenários foram validados por uma instância independente do assistente, com trechos reais em evidence/agent-validation.md; os demais são critérios de aceitação. Capturas do repositório complementam os logs, quando disponíveis.
+Os logs Python são execuções reais; a análise documenta a revisão feita nesta sessão pelo assistente. Não há alegação de execução no Hermes, indisponível neste ambiente. Dois cenários foram validados por uma instância independente do assistente, com trechos reais em evidence/agent-validation.md; os demais são critérios de aceitação. A [captura da validação](evidence/agent-validation.png) registra os trechos reais publicados no repositório.
 
 ## Escopo e limitações
 Somente dados fictícios, SQLite em memória, sem servidor, scanner ou destino externo. O exemplo vulnerável é material didático. Senhas em texto existem apenas para isolar a falha e não servem para produção. A correção cobre o vetor testado; não certifica segurança integral. A matriz não equivale ao CVSS. CWE-89 descreve a fraqueza; ATT&CK T1190 só se aplica condicionalmente a exploração de aplicação exposta.
